@@ -1,19 +1,21 @@
 {  
-   "tag":"i",
-   "default":"fa-file-o",
-   "folder":"fa-folder",
-   "home":"fa-home",
-   "search":"fa-search",
-   "load":"fa-refresh",
-   "share_icons":{  
-      "dropbox":"fa-dropbox fa-fw",
-      "email":"fa-envelope fa-fw",
-      "facebook":"fa-facebook fa-fw",
-      "google_plus":"fa-google-plus fa-fw",
-      "twitter":"fa-twitter fa-fw"
-   },
-   "files":[  
-      {  
+   "tag":"span",
+   "default":"octicon-file",
+   "folder":"octicon-file-directory text-primary",
+   "home":"octicon-globe",
+   "load":"octicon-sync",
+   "search":"octicon-search",
+   "files":[
+      {
+         "apple":{  
+            "extensions":[  
+               "app",
+               "ipa",
+               "ipsw",
+               "saver"
+            ],
+            "icon":"octicon-file-binary"
+         },
          "archive":{  
             "extensions":[  
                "7z",
@@ -58,53 +60,19 @@
                "xar",
                "zip"
             ],
-            "icon":"fa-archive-o"
+            "icon":"octicon-file-zip"
          },
-         "audio":{  
-            "extensions":[  
-               "aac",
-               "ac3",
-               "aif",
-               "aiff",
-               "au",
-               "caf",
-               "flac",
-               "it",
-               "m4a",
-               "m4p",
-               "med",
-               "mid",
-               "mo3",
-               "mod",
-               "mp1",
-               "mp2",
-               "mp3",
-               "mpc",
-               "ned",
-               "ra",
-               "ram",
-               "oga",
-               "ogg",
-               "oma",
-               "opus",
-               "s3m",
-               "sid",
-               "soundcloud",
-               "umx",
-               "wav",
-               "webma",
-               "wv",
-               "xm"
+         "doc":{
+            "extensions":[
+               "pdf"
             ],
-            "icon":"fa-file-audio-o"
+            "icon":"octicon-file-pdf"
          },
-         "excel":{  
+         "flickr":{  
             "extensions":[  
-               "xls",
-               "xlsx",
-               "numbers"
+               "flickr"
             ],
-            "icon":"fa-file-excel-o"
+            "icon":"octicon-file-symlink-file"
          },
          "image":{  
             "extensions":[  
@@ -113,7 +81,6 @@
                "cdr",
                "emf",
                "eps",
-               "flickr",
                "gif",
                "icns",
                "ico",
@@ -134,22 +101,15 @@
                "webp",
                "wmf"
             ],
-            "icon":"fa-file-image-o"
+            "icon":"octicon-file-media"
          },
-         "pdf":{  
+         "linux":{  
             "extensions":[  
-               "pdf"
+               "bin",
+               "deb",
+               "rpm"
             ],
-            "icon":"fa-file-pdf-o"
-         },
-         "powerpoint":{  
-            "extensions":[  
-               "pot",
-               "ppt",
-               "pptx",
-               "key"
-            ],
-            "icon":"fa-file-powerpoint-o"
+            "icon":"octicon-file-binary"
          },
          "script":{  
             "extensions":[  
@@ -209,73 +169,37 @@
                "xml",
                "yml"
             ],
-            "icon":"fa-file-code-o"
+            "icon":"octicon-file-code"
          },
-         "text":{  
+         "soundcloud":{  
             "extensions":[  
-               "ans",
-               "asc",
-               "ascii",
-               "csv",
-               "diz",
-               "latex",
-               "log",
-               "markdown",
-               "md",
-               "nfo",
-               "rst",
-               "rtf",
-               "tex",
-               "text",
-               "txt"
+               "soundcloud"
             ],
-            "icon":"fa-file-text-o"
+            "icon":"octicon-file-symlink-file"
          },
-         "video":{  
+         "vimeo":{  
             "extensions":[  
-               "3g2",
-               "3gp",
-               "3gp2",
-               "3gpp",
-               "asf",
-               "avi",
-               "bik",
-               "bup",
-               "divx",
-               "flv",
-               "ifo",
-               "m4v",
-               "mkv",
-               "mkv",
-               "mov",
-               "mp4",
-               "mpeg",
-               "mpg",
-               "rm",
-               "rv",
-               "ogv",
-               "qt",
-               "smk",
-               "swf",
-               "vimeo",
-               "vob",
-               "webm",
-               "wmv",
-               "xvid",
+               "vimeo"
+            ],
+            "icon":"octicon-file-symlink-file"
+         },
+         "windows":{  
+            "extensions":[  
+               "dll",
+               "exe",
+               "msi",
+               "pif",
+               "ps1",
+               "scr",
+               "sys"
+            ],
+            "icon":"octicon-file-binary"
+         },
+         "youtube":{  
+            "extensions":[  
                "youtube"
             ],
-            "icon":"fa-file-video-o"
-         },
-         "word":{  
-            "extensions":[  
-               "doc",
-               "docm",
-               "docs",
-               "docx",
-               "dot",
-               "pages"
-            ],
-            "icon":"fa-file-word-o"
+            "icon":"octicon-file-symlink-file"
          }
       }
    ]

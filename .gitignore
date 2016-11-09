@@ -1,3 +1,4 @@
+*.old
 .sass-cache
 bower_components/
 build/
@@ -9,4 +10,4 @@ src/parsedown
 tasks/swatch4.js
 todo.md
 vendor/
-*.old
+yarn.lock
