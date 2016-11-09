@@ -8,6 +8,8 @@ var repeat = function (s, n, d) {
 
 // Help dialog
 gulp.task('help', function() {
+  "use strict";	
+	
   let title_length =  meta.name + ' v' + meta.version;
 
   console.log('\n' + meta.name + ' v' + meta.version);

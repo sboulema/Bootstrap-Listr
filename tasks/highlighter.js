@@ -16,6 +16,7 @@ function getBasename(file) {
 
 // Build Highlight.js (via https://github.com/kilianc/rtail/blob/develop/gulpfile.js#L69)
 gulp.task('build:highlighter', function (done) {
+  "use strict";	
 
   let languages = ['tools/build.js'];
   let config = require(__dirname + '/../src/config.json').highlight.languages;
@@ -48,6 +49,7 @@ gulp.task('build:highlighter', function (done) {
 
 // Choose a highlight.js theme
 gulp.task('select:highlighter', function(){
+  "use strict";	
 
   let source_dir = 'node_modules/highlight.js/src/styles/';
 

@@ -22,6 +22,8 @@ gulp.task('setup', function(callback) {
 
 // Specify default asset location
 gulp.task('depends', function() {
+  "use strict";	
+	
   return gulp.src('./')
     .pipe(prompt.prompt({
         type: 'list',
@@ -95,6 +97,7 @@ gulp.task('depends', function() {
 
 // Feature selection
 gulp.task('select', function(callback){
+  "use strict";	
 
   // Set defaults
   let enable_viewer      = false;

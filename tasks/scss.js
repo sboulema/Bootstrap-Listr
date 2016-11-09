@@ -6,7 +6,7 @@ const gulp   = require('gulp');
 const prompt = require('gulp-prompt');
 const sass   = require('gulp-sass');
 
-let bootstrap_scss;
+var bootstrap_scss;
 if (argv.full) {
   bootstrap_scss = 'node_modules/bootstrap/scss/bootstrap.scss';
 } else {
